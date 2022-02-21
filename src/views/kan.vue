@@ -1,1 +1,1 @@
-<template><h1>:)</h1></template>
+<template><h1>εγώ μπορώ :)</h1></template>

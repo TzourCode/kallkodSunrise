@@ -2,12 +2,16 @@
 import Sunrise from "./components/Sunrise.vue";
 import Space from "./components/Space.vue";
 import nysida from "./components/nysida.vue";
+import Den from "./views/den.vue";
+import Props from "./components/props.vue";
 
 export default {
   components: {
     Sunrise,
     nysida,
     Space,
+    Den,
+    Props,
   },
 };
 </script>
@@ -31,5 +35,11 @@ export default {
   </nav>
   <nysida></nysida>
   <Space />
+  <Props
+    sunup="sunrise"
+    sundown="sunset"
+    city="Gothenburg"
+    :population="583056"
+  ></Props>
   <Sunrise />
 </template>
